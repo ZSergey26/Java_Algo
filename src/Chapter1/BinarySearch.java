@@ -24,7 +24,6 @@
  ******************************************************************************/
 
 package Chapter1;
-import AlgoLibs.In;
 import AlgoLibs.StdIn;
 import AlgoLibs.StdOut;
 
@@ -76,8 +75,8 @@ public class BinarySearch {
     public static void main(String[] args) {
 
         // read the integers from a file
-        In in = new In(args[0]);
-        int[] whitelist = in.readAllInts();
+        //In in = new In(args[0]);
+        int[] whitelist = {1,23,45,6};
 
         // sort the array
         Arrays.sort(whitelist);
