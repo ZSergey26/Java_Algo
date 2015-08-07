@@ -48,7 +48,6 @@ class Tuple
 
     public void swap1()
     {
-
         first  = first + second;
         second = first - second;
         first  = first - second;
@@ -56,7 +55,6 @@ class Tuple
 
     public void swap2()
     {
-
         first  = first ^ second;
         second = first ^ second;
         first  = first ^ second;
