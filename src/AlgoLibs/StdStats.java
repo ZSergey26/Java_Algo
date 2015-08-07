@@ -31,6 +31,8 @@
  *
  ******************************************************************************/
 
+package AlgoLibs;
+
 /**
  *  <i>Standard statistics</i>. This class provides methods for computing
  *  statistics such as min, max, mean, sample standard deviation, and
