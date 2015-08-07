@@ -23,6 +23,11 @@
  *  
  ******************************************************************************/
 
+package Chapter1;
+import AlgoLibs.In;
+import AlgoLibs.StdIn;
+import AlgoLibs.StdOut;
+
 import java.util.Arrays;
 
 /**

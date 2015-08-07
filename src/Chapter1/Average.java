@@ -16,6 +16,11 @@
  *
  ******************************************************************************/
 
+package Chapter1;
+
+import AlgoLibs.StdIn;
+import AlgoLibs.StdOut;
+
 /**
  *  The <tt>Average</tt> class provides a client for reading in a sequence
  *  of real numbers and printing out their average.
