@@ -41,6 +41,7 @@ public class Ex1_1_13 {
 
         int[][] result = new int[columns][rows];
 
+
         for(int newRows = 0; newRows < columns; newRows++)
             for( int newColumns = 0; newColumns < rows; newColumns++)
             {
