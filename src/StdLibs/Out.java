@@ -7,7 +7,7 @@
  *
  ******************************************************************************/
 
-package AlgoLibs;
+package StdLibs;
 
 import java.io.FileOutputStream;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package Chapter1;
+package Chapter_1_Fundamentals.BasicProgModel;
 
 /**
  * Наибольший общий делитель

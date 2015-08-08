@@ -6,7 +6,7 @@
  *  Interface that accompanies Draw.java.
  ******************************************************************************/
 
-package AlgoLibs;
+package StdLibs;
 
 public interface DrawListener {
     void mousePressed(double x, double y);

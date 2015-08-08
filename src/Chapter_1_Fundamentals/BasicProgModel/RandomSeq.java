@@ -13,10 +13,10 @@
  *  104.02
  *
  ******************************************************************************/
-package Chapter1;
+package Chapter_1_Fundamentals.BasicProgModel;
 
-import AlgoLibs.StdOut;
-import AlgoLibs.StdRandom;
+import StdLibs.StdOut;
+import StdLibs.StdRandom;
 
 /**
  *  The <tt>RandomSeq</tt> class is a client that prints out a pseudorandom

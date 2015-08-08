@@ -43,7 +43,7 @@
  *
  ******************************************************************************/
 
-package AlgoLibs;
+package StdLibs;
 
 /**
  *  <i>Standard array IO</i>. This class provides methods for reading

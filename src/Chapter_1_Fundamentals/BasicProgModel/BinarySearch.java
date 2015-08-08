@@ -23,9 +23,9 @@
  *  
  ******************************************************************************/
 
-package Chapter1;
-import AlgoLibs.StdIn;
-import AlgoLibs.StdOut;
+package Chapter_1_Fundamentals.BasicProgModel;
+import StdLibs.StdIn;
+import StdLibs.StdOut;
 
 import java.util.Arrays;
 

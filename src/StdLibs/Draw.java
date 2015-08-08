@@ -22,7 +22,7 @@
  *       it can cause flicker
  *
  ******************************************************************************/
-package AlgoLibs;
+package StdLibs;
 
 import java.awt.BasicStroke;
 import java.awt.Color;

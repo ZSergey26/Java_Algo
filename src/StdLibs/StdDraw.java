@@ -24,7 +24,7 @@
  *
  ******************************************************************************/
 
-package AlgoLibs;
+package StdLibs;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;

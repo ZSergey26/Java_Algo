@@ -16,10 +16,10 @@
  *
  ******************************************************************************/
 
-package Chapter1;
+package Chapter_1_Fundamentals.BasicProgModel;
 
-import AlgoLibs.StdIn;
-import AlgoLibs.StdOut;
+import StdLibs.StdIn;
+import StdLibs.StdOut;
 
 /**
  *  The <tt>Average</tt> class provides a client for reading in a sequence

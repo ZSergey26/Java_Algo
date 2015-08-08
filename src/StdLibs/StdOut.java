@@ -7,7 +7,7 @@
  *
  ******************************************************************************/
 
-package AlgoLibs;
+package StdLibs;
 
 import java.io.OutputStreamWriter;
 import java.io.PrintWriter;

@@ -31,7 +31,7 @@
  *
  ******************************************************************************/
 
-package AlgoLibs;
+package StdLibs;
 
 /**
  *  <i>Standard statistics</i>. This class provides methods for computing

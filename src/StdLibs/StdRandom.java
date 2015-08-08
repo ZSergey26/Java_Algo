@@ -45,7 +45,7 @@
  *
  ******************************************************************************/
 
-package AlgoLibs;
+package StdLibs;
 
 import java.util.Random;
 
