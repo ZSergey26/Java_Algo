@@ -1,4 +1,4 @@
-/******************************************************************************
+package Chapter_1_Fundamentals.DataAbstraction; /******************************************************************************
  *  Compilation:  javac Point2D.java
  *  Execution:    java Point2D x0 y0 N
  *  Dependencies: StdDraw.java StdRandom.java

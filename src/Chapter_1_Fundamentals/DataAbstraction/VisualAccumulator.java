@@ -1,3 +1,7 @@
+package Chapter_1_Fundamentals.DataAbstraction;
+
+import StdLibs.StdDraw;
+
 /******************************************************************************
  *  Compilation:  javac VisualAccumulator.java
  *  Execution:  none

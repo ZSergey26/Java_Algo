@@ -1,4 +1,4 @@
-/******************************************************************************
+package Chapter_1_Fundamentals.DataAbstraction; /******************************************************************************
  *  Compilation:  javac Transaction.java
  *  Execution:    java Transaction
  *  Dependencies: StdOut.java
@@ -6,6 +6,8 @@
  *  Data type for commercial transactions.
  *
  ******************************************************************************/
+
+import StdLibs.StdOut;
 
 import java.util.Arrays;
 import java.util.Comparator;

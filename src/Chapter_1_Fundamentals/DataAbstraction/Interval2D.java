@@ -1,4 +1,4 @@
-/******************************************************************************
+package Chapter_1_Fundamentals.DataAbstraction; /******************************************************************************
  *  Compilation:  javac Interval2D.java
  *  Execution:    java Interval2D
  *  Dependencies: StdOut.java Interval1D.java StdDraw.java
@@ -6,6 +6,10 @@
  *  2-dimensional interval data type.
  *
  ******************************************************************************/
+
+import StdLibs.StdDraw;
+import StdLibs.StdOut;
+import StdLibs.StdRandom;
 
 /**
  *  The <tt>Interval2D</tt> class represents a closed two-dimensional interval,

@@ -1,4 +1,4 @@
-/******************************************************************************
+package Chapter_1_Fundamentals.DataAbstraction; /******************************************************************************
  *  Compilation:  javac Date.java
  *  Execution:    java Date
  *  Dependencies: StdOut.java
@@ -6,6 +6,8 @@
  *  An immutable data type for dates.
  *
  ******************************************************************************/
+
+import StdLibs.StdOut;
 
 /**
  *  The <tt>Date</tt> class is an immutable data type to encapsulate a

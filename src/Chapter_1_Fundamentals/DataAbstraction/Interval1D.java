@@ -1,4 +1,4 @@
-/******************************************************************************
+package Chapter_1_Fundamentals.DataAbstraction; /******************************************************************************
  *  Compilation:  javac Interval1D.java
  *  Execution:    java Interval1D
  *  Dependencies: StdOut.java
@@ -6,6 +6,8 @@
  *  1-dimensional interval data type.
  *
  ******************************************************************************/
+
+import StdLibs.StdOut;
 
 import java.util.Arrays;
 import java.util.Comparator;
