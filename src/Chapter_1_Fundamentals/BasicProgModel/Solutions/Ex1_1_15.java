@@ -3,7 +3,6 @@ package Chapter_1_Fundamentals.BasicProgModel.Solutions;
 import StdLibs.StdRandom;
 import StdLibs.StdStats;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 /**
