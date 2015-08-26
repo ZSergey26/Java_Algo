@@ -106,7 +106,7 @@ public class Interval2D {
     /**
      * Draws this two-dimensional interval to standard draw.
      */
-    public void draw() {
+        public void draw() {
         double xc = (x.left() + x.right()) / 2.0;
         double yc = (y.left() + y.right()) / 2.0;
         StdDraw.rectangle(xc, yc, x.length() / 2.0, y.length() / 2.0);
