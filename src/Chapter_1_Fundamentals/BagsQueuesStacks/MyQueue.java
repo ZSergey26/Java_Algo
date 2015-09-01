@@ -85,7 +85,7 @@ public class MyQueue<Item>  implements Iterable<Item>  {
             System.out.print(s + " ");
         }
 
-        for (int i = 0; i < queue.size(); i++) {
+        for (int i = 0; i < queue.size() -1; i++) {
             queue.enqueue(queue.dequeue());
         }
 
