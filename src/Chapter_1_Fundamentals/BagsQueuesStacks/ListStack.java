@@ -80,13 +80,14 @@ public class ListStack<Item> implements Iterable<Item> {
             System.out.print(s + " <- ");
         }
 
+        ListStack<String> reverseListStack = new ListStack<>();
         for (String s : listStack) {
-            listStack.push(listStack.pop());
+            reverseListStack.push(listStack.pop());
         }
 
         System.out.println();
         System.out.print("List: ");
-        for (String s : listStack) {
+        for (String s : reverseListStack) {
             System.out.print(s + " <- ");
         }
     }
