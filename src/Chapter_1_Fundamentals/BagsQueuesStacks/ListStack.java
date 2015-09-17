@@ -19,6 +19,17 @@ public class ListStack<Item> implements Iterable<Item> {
         Node next;
     }
 
+    @Override
+    public String toString() {
+        String result = "";
+        while(!isEmpty())
+        {
+            result = pop().toString();
+        }
+
+        return result;
+    }
+
     private int N;
 
     public boolean isEmpty() {
@@ -44,6 +55,11 @@ public class ListStack<Item> implements Iterable<Item> {
         first = first.next;
         N--;
         return item;
+    }
+
+    public Item peek()
+    {
+        return first.item;
     }
 
     private class ListStackIterator implements Iterator<Item> {
