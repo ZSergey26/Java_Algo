@@ -30,13 +30,14 @@ public class UF {
      * @param q node
      */
     public void union(int p, int q) {
-        if (id[p] != id[q]) {
-            for (int i = 0; i < id.length; i++) {
-                if(id[i] == id[p])
-                    id[i] = id[q];
-            }
-            count--;
-        }
+        int pRoot = find(p);
+        int qRoot = find(q);
+
+        if(pRoot == qRoot)
+            return;
+        id[pRoot] = qRoot;
+
+        count--;
     }
 
 
@@ -46,7 +47,11 @@ public class UF {
      * @return component id
      */
     public int find(int p) {
-        return id[p];
+        while (p != id[p]) {
+            p = id[p];
+        }
+
+        return p;
     }
 
     /**
