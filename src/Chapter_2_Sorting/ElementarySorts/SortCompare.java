@@ -27,6 +27,7 @@ public class SortCompare {
 
         if(alg.equals("Вставки")) new Insertion().sort(a);
         if(alg.equals("Выбор")) new Selection().sort(a);
+        if(alg.equals("Шелла")) new Shell().sort(a);
 
         return timer.elapsedTime();
     }
