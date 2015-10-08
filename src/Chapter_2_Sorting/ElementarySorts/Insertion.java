@@ -3,7 +3,7 @@ package Chapter_2_Sorting.ElementarySorts;
 /**
  * Created by Sergei Zarochentsev on 29.09.2015.
  */
-public class Insertion extends Example {
+public class Insertion extends SortingFundamentalOperations {
 
     @Override
     public void sort(Comparable[] a) {

@@ -3,7 +3,7 @@ package Chapter_2_Sorting.ElementarySorts;
 /**
  * Created by Sergei Zarochentsev on 07.10.2015.
  */
-public class Shell extends Example {
+public class Shell extends SortingFundamentalOperations {
 
     @Override
     public void sort(Comparable[] a) {

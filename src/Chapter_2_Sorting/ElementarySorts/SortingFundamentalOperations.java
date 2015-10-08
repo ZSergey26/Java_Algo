@@ -7,7 +7,7 @@ import java.util.Arrays;
 /**
  * Created by Sergei Zarochentsev on 28.09.2015.
  */
-public abstract class Example {
+public abstract class SortingFundamentalOperations {
     public void sort(Comparable[] a) {
         System.out.println("Base class sort call");
     }
@@ -46,6 +46,36 @@ public abstract class Example {
         sort(a);
 
         System.out.println("a = " + Arrays.toString(a));
+    }
+
+
+    protected static Comparable[] aux;
+    public static void merge(Comparable[] a, int lo, int mid, int hi) {
+        System.out.println();
+        System.out.println("Array before " + Arrays.toString(a));
+        System.out.println("Merge lo = " + lo + " mid = " + mid + " hi = " + hi );
+        int i = lo;
+        int j = mid + 1;
+
+
+        for (int k = lo; k <= hi; k++) {
+            aux[k] = a[k];
+        }
+
+        for (int k = lo; k <= hi; k++) {
+            if (i > mid) {
+                a[k] = aux[j++];
+            } else if (j > hi) {
+                a[k] = aux[i++];
+            } else if (less(aux[j], aux[i])) {
+                a[k] = aux[j++];
+            } else {
+                a[k] = aux[i++];
+            }
+
+        }
+        System.out.println("Array after " + Arrays.toString(a));
+        System.out.println();
     }
 
 

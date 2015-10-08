@@ -3,7 +3,7 @@ package Chapter_2_Sorting.ElementarySorts;
 /**
  * Created by Sergei Zarochentsev on 28.09.2015.
  */
-public class Selection extends Example {
+public class Selection extends SortingFundamentalOperations {
 
     public void sort(Comparable[] a) {
         int N  = a.length;
