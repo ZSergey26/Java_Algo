@@ -51,9 +51,6 @@ public abstract class SortingFundamentalOperations {
 
     protected static Comparable[] aux;
     public static void merge(Comparable[] a, int lo, int mid, int hi) {
-        System.out.println();
-        System.out.println("Array before " + Arrays.toString(a));
-        System.out.println("Merge lo = " + lo + " mid = " + mid + " hi = " + hi );
         int i = lo;
         int j = mid + 1;
 
@@ -74,8 +71,6 @@ public abstract class SortingFundamentalOperations {
             }
 
         }
-        System.out.println("Array after " + Arrays.toString(a));
-        System.out.println();
     }
 
 
