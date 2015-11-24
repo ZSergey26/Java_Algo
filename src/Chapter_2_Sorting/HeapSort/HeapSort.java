@@ -1,5 +1,7 @@
 package Chapter_2_Sorting.HeapSort;
 
+import StdLibs.StdOut;
+
 /**
  * Created by Sergei Zarochentsev on 24.11.2015.
  */
@@ -17,8 +19,8 @@ public class HeapSort {
         }
     }
 
-    private static void exch(Comparable[] a, int i, int j) {
-        Comparable t = a[i - 1];
+    private static void exch(Object[] a, int i, int j) {
+        Object t = a[i - 1];
         a[i - 1] = a[j - 1];
         a[j - 1] = t;
     }
@@ -31,7 +33,7 @@ public class HeapSort {
                 j++;
             }
 
-            if (!(less(a, k, j))) {
+            if (!less(a, k, j)) {
                 break;
             }
 
@@ -41,5 +43,16 @@ public class HeapSort {
 
     private static boolean less(Comparable[] a, int i, int j) {
         return a[i - 1].compareTo(a[j - 1]) < 0;
+    }
+
+    private static void show(Comparable[] a) {
+        for (int i = 0; i < a.length; i++) {
+            StdOut.println(a[i]);
+        }
+    }
+    public static void main(String[] args) {
+        Integer[] a = {4, 3, 1, 2, 10, 5, 4, 4, 1, 9, 0};
+        HeapSort.sort(a);
+        show(a);
     }
 }
