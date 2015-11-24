@@ -56,6 +56,10 @@ public class MaxPQ<Key extends Comparable<Key>> {
             int j = 2 * k;
 
             if (j < N && less(j, j + 1)) {
+                j++;
+            }
+
+            if (!(less(k, j))) {
                 break;
             }
 
