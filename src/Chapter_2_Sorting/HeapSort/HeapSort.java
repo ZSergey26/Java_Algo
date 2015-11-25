@@ -2,9 +2,7 @@ package Chapter_2_Sorting.HeapSort;
 
 import StdLibs.StdOut;
 
-/**
- * Created by Sergei Zarochentsev on 24.11.2015.
- */
+
 public class HeapSort {
     public static void sort(Comparable[] a) {
         int N = a.length;
