@@ -5,7 +5,7 @@ import StdLibs.StdOut;
 /**
  * Created by Sergei Zarochentsev on 24.11.2015.
  */
-public class HeapSort {
+public class Heap {
     public static void sort(Comparable[] a) {
         int N = a.length;
 
@@ -37,6 +37,8 @@ public class HeapSort {
                 break;
             }
 
+            exch(a, k, j);
+
             k = j;
         }
     }
@@ -47,12 +49,12 @@ public class HeapSort {
 
     private static void show(Comparable[] a) {
         for (int i = 0; i < a.length; i++) {
-            StdOut.println(a[i]);
+            StdOut.print(a[i] + " ");
         }
     }
     public static void main(String[] args) {
         Integer[] a = {4, 3, 1, 2, 10, 5, 4, 4, 1, 9, 0};
-        HeapSort.sort(a);
+        Heap.sort(a);
         show(a);
     }
 }
