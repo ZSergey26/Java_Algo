@@ -7,16 +7,33 @@ import StdLibs.StdOut;
  */
 public class Heap {
     public static void sort(Comparable[] a) {
-        int N = a.length;
 
-        for (int k = N / 2; k >= 1; k--) {
-            sink(a, k, N);
-        }
+        heapConstruction(a);
+
+        sortdown(a);
+
+    }
+
+    private static void sortdown(Comparable[] a) {
+        int N = a.length;
 
         while (N > 1) {
             exch(a, 1, N--);
             sink(a, 1, N);
         }
+    }
+
+    private static void heapConstruction(Comparable[] a) {
+//        int N = a.length;
+//        for (int k = N / 2; k >= 1; k--) {
+//            sink(a, k, N);
+//        }
+
+        int N = a.length;
+        for (int k = 1; k < N; k++) {
+            swim(a, k, N);
+        }
+
     }
 
     private static void exch(Object[] a, int i, int j) {
@@ -26,6 +43,7 @@ public class Heap {
     }
 
     private static void sink(Comparable[] a, int k, int N) {
+
         while (2 * k <= N) {
             int j = 2 * k;
 
@@ -40,6 +58,13 @@ public class Heap {
             exch(a, k, j);
 
             k = j;
+        }
+    }
+
+    private static void swim(Comparable[] a, int k, int N) {
+        while (k > 1 && less(a, k / 2, k)) {
+            exch(a, k / 2, k);
+            k = k /2;
         }
     }
 
